@@ -1,0 +1,22 @@
+{
+  "name": "platon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js -f file.txt -v",
+    "dev": "nodemon --watch src src/index.js -f file.txt -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0",
+    "nodemon": "^1.19.4",
+    "parse-cmd-args": "^2.0.0",
+    "ramda": "^0.26.1",
+    "terminal-kit": "^1.31.7"
+  }
+}
