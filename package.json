@@ -17,6 +17,6 @@
     "nodemon": "^1.19.4",
     "parse-cmd-args": "^2.0.0",
     "ramda": "^0.26.1",
-    "terminal-kit": "^1.31.7"
+    "terminal-kit": "^2.1.8"
   }
 }
